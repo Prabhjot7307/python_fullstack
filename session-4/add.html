@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Addition of two numbers</h1>
+     <input id="num1"> +<input id="num2">=<input id="output">
+     <h2 id="result"></h2>
+     <button onclick="addition()">ADD</button>
+     <script>
+        // function addition(){
+        //   x =  document.getElementById('num1').value
+        //   a=Number(x)
+        // console.log(typeof(a)) 
+        // //   console.log(x); 
+        //    y = document.getElementById('num2').value
+        //    b=Number(y)
+        // console.log(typeof(b))
+        // //   console.log(y); 
+        //   console.log (a+b)
+        // }
+        /*function addition(){
+         x =  document.getElementById('num1').value
+          y = document.getElementById('num2').value
+          console.log(Number(x)+Number(y))
+          console.log(parseInt(x)+parseInt(y))
+        }*/
+
+        function addition(){
+            x =  document.getElementById('num1').value 
+             y = document.getElementById('num2').value
+             z = parseInt(x)+parseInt(y)
+             document.getElementById("output").value = z
+        }
+     </script>
+</body>
+</html>

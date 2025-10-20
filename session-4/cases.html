@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uppercase to Lowecaase and vice cersa</title>
+</head>
+<body>
+    <h1>Convert Textcase</h1>
+    <textarea id="messgae" rows="20" cols="60"></textarea>
+    <br>
+    <button onclick=" convertToUpperCase()">Upper</button>
+
+    <button onclick="convertToLowerCase()">Lower</button>
+
+    <script>
+    function convertToUpperCase() {
+     const txt = document.getElementById("messgae")
+     txt.value = txt.value.toUpperCase()
+    }
+    function convertToLowerCase() {
+     const txt = document.getElementById("messgae")
+     txt.value = txt.value.toLowerCase()
+    }
+    
+    </script>
+</body>
+</html>
